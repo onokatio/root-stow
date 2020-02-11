@@ -10,6 +10,7 @@ $ git clone https://github.com/onokatio/root-stow
 $ sudo mv ./root-stow /
 $ cd /root-stow
 $ sudo chown -R root:root ./root
+$ sudo chown -R root:root ./.git
 ```
 
 **Run chown for security.**
