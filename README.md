@@ -1,11 +1,16 @@
 # root-stow
 
-configuration file tree for linux root filesystem.
+The configuration file tree for linux root filesystem.
+With stow, the tree is mapping to root fs via symbolic link.
 
-## apply
+## Apply
 
+```
 sudo stow -v root -t /
+```
 
-## undo
+## Undo
 
+```
 sudo stow -D -v root -t /
+```
