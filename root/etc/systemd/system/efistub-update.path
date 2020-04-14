@@ -2,7 +2,7 @@
 Description=Copy EFISTUB Kernel to UEFISYS Partition
 
 [Path]
-PathChanged=/boot/initramfs-linux-fallback.img
+PathChanged=/boot/
 
 [Install]
 WantedBy=multi-user.target
