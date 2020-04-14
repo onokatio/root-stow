@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = preloader-signed
+
+[Action]
+Description = Copy Preloader to ESP
+When = PostTransaction
+Exec = /bin/sh -c "cp /usr/share/preloader-signed/{PreLoader,HashTool}.efi /boot/efi/EFI/"
